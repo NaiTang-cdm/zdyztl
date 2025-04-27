@@ -3,7 +3,7 @@
 
 Android自定义状态栏
 
-<img src="" width=280/>
+<img src="screenshot/IMG_20230228_154013 (2).jpg" width=280/>
 
 ## 依赖
 ```
