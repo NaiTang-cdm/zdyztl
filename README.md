@@ -1,9 +1,9 @@
 # ImageSelector
 
 
-Android 图片选择器。充分自由定制，极大程度简化使用，支持图库多选/图片预览/单选/照片裁剪/拍照/自定义图片加载方式/自定义色调/沉浸式状态栏
+Android自定义状态栏
 
-<img src="https://github.com/smuyyh/ImageSelector/blob/master/screenshot/screen_1.png?raw=true" width=280/>
+<img src="" width=280/>
 
 ## 依赖
 ```
@@ -26,15 +26,14 @@ dependencies {
 
 ## 版本
 
-**V3.0 迁移到jitpack**
+**V0.1.1 迁移到jitpack**
 
-**V2.1.0 适配 android 11 分区存储**
+**V0.1.0 适配 android 15 分区存储**
 
 ## 注意事项
 
 1. 图片加载由调用者自定义一个ImageLoader（详见[使用方式](#使用方式)）, 可通过Glide、Picasso等方式加载
-2. 用户自行选择加载方式，所以加载图片不受本库控制，若出现OOM等问题，可能需要在displayImage里进行压缩处理等
-3. 有好的建议可以提[issue](https://github.com/smuyyh/ImageSelector/issues/new), 谢谢~~
+2. 谢谢~~
 
 ## 使用
 
